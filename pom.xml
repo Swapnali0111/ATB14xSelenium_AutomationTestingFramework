@@ -15,11 +15,79 @@
   </properties>
 
   <dependencies>
+    <!-- ============================================ -->
+    <!-- Selenium WebDriver                          -->
+    <!-- ============================================ -->
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>4.39.0</version>
+    </dependency>
+
+    <!-- ============================================ -->
+    <!-- TestNG Framework                            -->
+    <!-- ============================================ -->
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.10.2</version>
       <scope>test</scope>
     </dependency>
+
+    <!-- ============================================ -->
+    <!-- Assertions                                  -->
+    <!-- ============================================ -->
+    <dependency>
+      <groupId>org.assertj</groupId>
+      <artifactId>assertj-core</artifactId>
+      <version>3.27.6</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- ============================================ -->
+    <!-- Allure Reporting                            -->
+    <!-- ============================================ -->
+    <dependency>
+      <groupId>io.qameta.allure</groupId>
+      <artifactId>allure-testng</artifactId>
+      <version>2.27.0</version>
+    </dependency>
+
+    <!-- ============================================ -->
+    <!-- Logging - Log4j2                            -->
+    <!-- ============================================ -->
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>2.23.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-api</artifactId>
+      <version>2.23.1</version>
+    </dependency>
+
+    <!-- ============================================ -->
+    <!-- Apache POI - Excel Support                  -->
+    <!-- ============================================ -->
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi</artifactId>
+      <version>5.2.5</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-ooxml</artifactId>
+      <version>5.2.5</version>
+    </dependency>
+
+    <!--&lt;!&ndash; ============================================ &ndash;&gt;
+    &lt;!&ndash; Commons IO - File Utilities                 &ndash;&gt;
+    &lt;!&ndash; ============================================ &ndash;&gt;
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version></version>
+    </dependency>-->
   </dependencies>
 </project>
